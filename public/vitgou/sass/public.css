@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* 去除外边距和内边距 */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td{margin:0;padding:0;}
+/* 设置字体和 英文字体换行 */
+body{font:12px/24px "微软雅黑"; word-wrap:break-word;}
+/* 字体颜色和样式去除 */
+a,u,s,del{color:#666;text-decoration:none}
+/*边框去除  */
+fieldset ,a img,.bor0 {border:0;}
+/* 字体普通样式 */
+i,em,b{font-style:normal;font-weight:100;}
+/* 表格边框合并 */
+table{border-collapse:collapse;}
+/* 首行缩进2个字符 */
+.ind2{text-indent:2em;}
+/* 去除li默认样式 */
+li{list-style-type: none;}
+/* 去除IE的图片边框 */
+a img{border: 0;}
+/* 图片的水平垂直居中 */
+.valign{text-align: center;}
+.valign img{vertical-align: middle;}
+.valign:after{content: ""; display: inline-block;vertical-align: middle;height: 100%;}
+/* 文本溢出隐藏 */
+.textoverflow{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+/* 高度塌陷问题 万能清除法 */
+.clear:after{content: "";display: block;clear: both;}
+/* 解决margin-top向上传递的问题 */
+.clear:before{content:"";display: table;}
+/* 去除google点击蓝款 */
+textarea input{outline: none;}
+/* textarea禁止拖动 */
+textarea{resize: none;}

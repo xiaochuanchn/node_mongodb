@@ -1,0 +1,21 @@
+#nav .category .cate-menu{display:none;}
+#brand-main .title{font-size:12px;line-height:20px;padding: 10px 0;}
+#brand-main .brandImg img{display:block;margin:0 auto;}
+#brand-main .sort{border:1px solid #ddd;height:37px;margin:20px 0;text-align: center;line-height:37px;}
+#brand-main .sort .sort-bar{float:left;}
+#brand-main .sort .sort-bar b{border-right:1px solid #d7d7d7;padding: 10px;}
+#brand-main .sort .sort-bar span{border-right:1px solid #d7d7d7;padding:10px;}
+#brand-main .sort .page{float:right;}
+#brand-main .sort .page span{border:1px solid #d7d7d7;margin-right: 10px;padding: 0 5px;}
+#brand-main .list{border-bottom:1px solid #f0f0f0;padding-bottom:50px;}
+#brand-main .list ul{display:flex;flex-wrap:wrap;}
+#brand-main .list ul li{border: 1px solid #f0f0f0;margin-right:10px;margin-bottom: 10px;padding: 5px;width:230px;box-sizing:border-box;}
+#brand-main .list ul li img.bigimg{width:210px;height:210px;display:block;margin: 0 auto;cursor:pointer;}
+#brand-main .list ul li .small-imgs{overflow: hidden;margin:15px 0;padding:0 5px;}
+#brand-main .list ul li .small-imgs img{display:float;width:28px;height:28px;border: 1px solid #f0f0f0;cursor:pointer;}
+#brand-main .list ul li .small-imgs img:nth-child(1){border: 1px solid #c00;}
+#brand-main .list ul li h3{font-size:12px;line-height:18px;font-weight: 100;padding: 0 5px;height:72px;cursor:pointer;}
+#brand-main .list ul li p{margin: 10px;}
+#brand-main .list ul li p b{color:#c00;font-weight:700;font-size:16px;}
+#brand-main .list ul li p span{font-weight:100;font-size:12px;color:#666;text-decoration: line-through;margin-left:15px;}
+#brand-main .list ul li .add{background:#F32613;height:30px;width:120px;color:#fff;line-height:30px;text-align:center;margin:10px auto;cursor:pointer;}

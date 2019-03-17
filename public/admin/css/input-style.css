@@ -1,0 +1,25 @@
+.file-list {
+	height: 125px;
+	display: none;
+	list-style-type: none;
+}
+
+.file-list img {
+	max-width: 70px;
+	vertical-align: middle;
+}
+
+.file-list .file-item {
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 20px;
+}
+
+
+.file-list .file-item .file-del {
+	display: block;
+	margin-left: 20px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+

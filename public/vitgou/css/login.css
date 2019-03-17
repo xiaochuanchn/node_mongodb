@@ -1,0 +1,20 @@
+body{background:#fafafa;}
+header{background:#fff;}
+.login{overflow: hidden;}
+.login img{float:left;margin-top:60px;}
+.login .login-form{float:right;width:440px;height:442px;padding: 19px;border: 1px solid #e6e6e6;background:#fff;}
+.login .login-form form{position: relative}
+.login .login-form form ul{overflow: hidden;}
+.login .login-form form ul li{float:left;}
+.login .login-form form ul li h3{width:220px;text-align:center;font-size:18px;line-height:24px;padding-bottom:13px;cursor:pointer;}
+.login .login-form form ul li h3.active{border-bottom:3px solid #F32613;color:#F32613}
+.login .login-form form ul li .regist{position: absolute;width:440px;padding-top:30px;border-top:1px solid #e6e6e6;display:none;}
+.login .login-form form ul li .regist i{height:50px;line-height:50px;font-size:20px;color:#0f0;font-weight:700;margin-right:20px;display:none}
+.login .login-form form ul li .log{position: absolute;width:440px;padding-top:30px;left:0;border-top:1px solid #e6e6e6;}
+.login .login-form form ul li  .user{display:flex;width:348px;border:1px solid #e6e6e6;height:50px;margin-bottom:10px;margin: 10px auto;}
+.login .login-form form ul li  .pass{display:flex;width:348px;border:1px solid #e6e6e6;height:50px;margin:10px auto;}
+.login .login-form form ul li  .nickname{display:flex;width:348px;border:1px solid #e6e6e6;height:50px;margin:10px auto;}
+.login .login-form form ul li  .msg{width:348px;font-size:16px;line-height:50px;height:50px;margin:10px auto;color:#F32613;text-align: center;}
+.login .login-form form ul li  span{width:72px;height:20px;line-height:20px;padding:16px 0 16px 20px;font-size:14px;}
+.login .login-form form ul li  input{border: none;width:240px;height:28px;padding:10px 0;outline: none;font-size:14px;}
+.login .login-form form ul li  .btn{text-align: center;width:300px;height:40px;font-size:14px;background:#F32613;font-size:18px;line-height:40px;color:#fff;margin: 0 auto;margin-top:30px;border-radius: 5px;cursor: pointer;}

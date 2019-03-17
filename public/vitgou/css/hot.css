@@ -1,0 +1,13 @@
+main.hot{}
+main.hot .title{border-bottom:2px solid #c00;font-size:14px;height:24px;line-height: 24px;padding: 0 10px;}
+main.hot #hot-buy{padding: 20px 0;}
+main.hot #hot-buy ul{display:flex;flex-wrap: wrap;}
+main.hot #hot-buy ul li{padding: 20px;border:1px solid #ccc;margin-right:15px;margin-bottom:15px;width:342px;}
+main.hot #hot-buy ul li img{width:280px;height:280px;display:block;margin-bottom:20px;}
+main.hot #hot-buy ul li h3{font-size:14px;line-height: 20px;padding:10px 0;font-weight:100;height:60px;}
+main.hot #hot-buy ul li .hot-price{display:flex;height:36px;position: relative;}
+main.hot #hot-buy ul li .hot-price p{font-size:32px;color:#F04C44;line-height:36px;font-weight:700;}
+main.hot #hot-buy ul li .hot-price span{font-size:16px;color:#666;height:16px;font-weight:700;vertical-align: bottom;display: table-cell;position: relative;top:12px;left:2px;color:#F04C44}
+main.hot #hot-buy ul li .hot-price em{position: relative;top:18px;left:25px;font-size:14px;height:14px;text-decoration: line-through;}
+main.hot #hot-buy ul li .hot-price i{position:absolute;background:url(../images/group_bg.png) no-repeat 0 -10px;width:50px;height:20px;font-weight:700;font-size:12px;line-height: 20px;text-align: center;color:#F04C44;left:123px;top:-3px;}
+main.hot #hot-buy ul li .hot-price input{position:absolute;background:#F04C44;right:0;width:100px;height:40px;color:#fff;border:0;font-weight: 700;cursor:pointer}
